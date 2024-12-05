@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-shop-staff/static/css/main.16776c4f.css",
+    "main.js": "/react-shop-staff/static/js/main.0eb078cc.js",
+    "static/media/wardrobe.jpg": "/react-shop-staff/static/media/wardrobe.8e7243187d78af2dcfff.jpg",
+    "static/media/bg.jpg": "/react-shop-staff/static/media/bg.86ffd13ef0720bccbd35.jpg",
+    "static/media/Slider1.png": "/react-shop-staff/static/media/Slider1.3ee794e54fa80449f693.png",
+    "static/media/Slider2.png": "/react-shop-staff/static/media/Slider2.b464c9e5dbde196ded79.png",
+    "static/media/Slider3.png": "/react-shop-staff/static/media/Slider3.08329ad549d7b34928fc.png",
+    "static/media/table.jpg": "/react-shop-staff/static/media/table.2bb7a11efa22cc9e52e0.jpg",
+    "static/media/chair.jpg": "/react-shop-staff/static/media/chair.45e4fe187be4f63dc3e6.jpg",
+    "static/media/table2.jpg": "/react-shop-staff/static/media/table2.81e4df55560772c18d51.jpg",
+    "static/media/wardrobe2.jpg": "/react-shop-staff/static/media/wardrobe2.8807a967cd7b3e49b6a8.jpg",
+    "static/media/chair2.jpg": "/react-shop-staff/static/media/chair2.2eb44eedd8cfe574a497.jpg",
+    "static/media/staff.png": "/react-shop-staff/static/media/staff.f166c64ffbc5d5ae0cea.png",
+    "index.html": "/react-shop-staff/index.html",
+    "main.16776c4f.css.map": "/react-shop-staff/static/css/main.16776c4f.css.map",
+    "main.0eb078cc.js.map": "/react-shop-staff/static/js/main.0eb078cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16776c4f.css",
+    "static/js/main.0eb078cc.js"
+  ]
+}
