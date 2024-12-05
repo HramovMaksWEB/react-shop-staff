@@ -3,6 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <footer className="footer">
+      <div className="wrapper">
         <div className='footer-container'>
           <section className='footer-left'>
             <h2>Staff</h2>
@@ -21,6 +22,7 @@ export default function Footer() {
             <p>Лицензия</p>
             <p>Отзывы</p>
           </section>
+        </div>
         </div>
     </footer>
   )
