@@ -1,0 +1,51 @@
+/* Footer.module.css */
+.footer {
+  background-color: #020000; /* Темный фон футера */
+  color: #f2f2f2; /* Цвет текста */
+  padding: 32px 0; /* Отступы сверху и снизу */
+  width: 100%; /* Устанавливаем ширину на 100% */
+  height: auto;
+  position: absolute; /* Позиционирование относительно родителя */
+  left: 0; /* Устанавливаем левую границу на 0 */
+  right: 0; /* Устанавливаем правую границу на 0 */
+  bottom: -1;
+}
+
+footer {
+  margin-top: auto; /* Отталкивает футер вниз */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Выравнивание элементов по верхнему краю */
+  width: 90%; /* Установите ширину, чтобы соответствовать .wrapper */
+  margin: 0 auto; /* Центрирование контейнера */
+}
+
+footer p {
+  margin-top: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #f2f2f2;
+  transition: color 0.3s; /* Плавный переход цвета */
+}
+
+a:hover {
+  color: #ffcc00; /* Цвет ссылок при наведении */
+}
+
+/* Дополнительные стили для адаптивности */
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column; /* Вертикальное расположение на мобильных устройствах */
+      align-items: center; /* Центрирование элементов */
+  }
+
+  .footer-left, .footer-center, .footer-right {
+      text-align: center; /* Центрирование текста */
+      margin-bottom: 20px; /* Отступы между секциями */
+  }
+}

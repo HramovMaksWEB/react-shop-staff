@@ -1,0 +1,80 @@
+main .item, .fullItem .item{
+    width: 400px;
+    margin-bottom: 50px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 20px;
+  }
+  
+  .fullItem .item{
+    width: 100%;
+  }
+  
+  main .item img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    transition: transform 500ms ease;
+  }
+  
+  .fullItem .item img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    transition: transform 500ms ease;
+  }
+  
+  main .item img:hover,
+  .fullItem .item img:hover{
+    transform: scale(1.1);
+  }
+  
+  main h2, main p, main b, .fullItem h2, .fullItem p, .fullItem b{
+    margin: 10px 20px;
+    color : #333;
+  } 
+  main b, .fullItem b{
+    color: #5fa36a;
+  }
+  
+  main .add-to-cart, .fullItem .add-to-cart{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: #020000;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 500ms ease;
+  }
+  
+  main .add-to-cart:hover, .fullItem .add-to-cart:hover{
+    transform: scale(1.5) translateY(-5px);
+  }
+  
+  @media (max-width: 476px){
+    .item h2{
+      font-size: 16px;
+    }
+
+    .item p, .item b{
+      font-size: 10px;
+    }
+
+    main .add-to-cart{
+      width: 25px;
+      height: 25px;
+      font-size: 10px;
+      text-align: center;
+      line-height: 25px;
+    }
+
+    .item img{
+      height: 150px;
+    }
+  }
+  

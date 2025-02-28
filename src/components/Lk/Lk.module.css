@@ -1,0 +1,150 @@
+/* Lk.module.css */
+.avtorizathion {
+  padding: 24px;
+  width: 40%;
+  margin-bottom: 6.25%;
+  height: auto; /* Установите высоту на auto для адаптивности */
+  background-color: #bcbcbc;
+  border-radius: 5px;
+}
+
+.lk {
+  margin: 64px;
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  text-align: center; /* Центрируем текст описания */
+  margin-bottom: 16px; /* Отступ снизу */
+  font-size: 16px; /* Размер шрифта для описания */
+}
+
+.checkbox_container {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  gap: 0;
+  align-items: center; /* Выравнивание по вертикали */
+}
+
+/* Стили для checkbox */
+.checkbox {
+  width: 16px; /* Устанавливаем ширину чекбокса */
+  height: 16px; /* Устанавливаем высоту чекбокса */
+  margin: 0; /* Убираем стандартные отступы */
+  cursor: pointer; /* Указываем, что элемент кликабельный */
+  transition: 500ms ease;
+}
+
+.checkbox:hover {
+  transform: scale(1.2);
+}
+
+label {
+  margin-left: 8px; 
+  cursor: pointer; 
+}
+
+.button_avtorization {
+  width: 50%;
+  height: 50px;
+  margin-left: 25%;
+  margin-top: 16px;
+  border-radius: 10px;
+  color: #f2f2f2;
+  background-color: #020000;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 500ms ease;
+  border: none;
+}
+
+.button_avtorization:hover {
+  transform: scale(1.2);
+  background-color: rgb(6, 161, 39);
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 28px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-bottom: 2px solid;
+  background-color: #f2f2f200;
+  outline: none;
+}
+
+.links {
+  display: flex;
+  justify-content: center; /* Центрируем ссылки */
+  margin-top: 16px; /* Отступ сверху */
+}
+
+.link {
+  text-decoration: none; /* Убираем подчеркивание */
+  color: #020000; /* Цвет ссылок */
+  margin: 0 8px; /* Отступы между ссылками */
+}
+
+.separator {
+  margin: 0 8px; /* Отступы между ссылками и разделителем */
+}
+
+.additionalText {
+  text-align: center; /* Центрируем текст */
+  margin-top: 16px; /* Отступ сверху */
+  font-size: 14px; /* Размер шрифта для дополнительного текста */
+  color: #333; /* Цвет текста */
+}
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 768px) {
+  .avtorizathion {
+      width: 80%; /* Увеличиваем ширину для мобильных устройств */
+      padding: 16px; /* Уменьшаем отступы */
+  }
+
+  .login {
+      font-size: 24px; /* Увеличиваем размер заголовка */
+  }
+
+  .description, .additionalText {
+      font-size: 14px; /* Уменьшаем размер шрифта для мобильных устройств */
+  }
+
+  .button_avtorization {
+      width: 100%; /* Кнопка занимает всю ширину */
+      margin-left: 0; /* Убираем отступ слева */
+  }
+
+  input {
+      font-size: 18px; /* Уменьшаем размер шрифта для полей ввода */
+  }
+
+  .links {
+      flex-direction: column; /* Ставим ссылки в столбик */
+      align-items: center; /* Центрируем ссылки */
+  }
+}
+
+@media (max-width: 480px) {
+  .login {
+      font-size: 20px; /* Уменьшаем размер заголовка для маленьких экранов */
+  }
+
+  label{
+    font-size: 13px;
+  }
+
+  .description, .additionalText {
+      font-size: 12px; /* Уменьшаем размер шрифта для очень маленьких экранов */
+  }
+}
